@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.zero {
+    background-color: pink;
+}
+.wall {
+    background-color: rgb(56, 159, 199);
+    display: flex;
+
+}
+
+#MyTable {
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+}
+
+td {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 直線 */
+.straight {
+    background-color: rgb(235, 255, 52);
+    height: 100%;
+    width: 10%;
+}
+
+/* 豎線 */
+.vertical {
+    background-color: rgb(235, 255, 52);
+    height: 10%;
+    width: 100%;
+}
+
+/* 左上 */
+.upperLeft {
+    border-left: 5px sandybrown solid;
+    border-top: 5px sandybrown solid;
+    height: 100%;
+    top: 45%;
+    left: 45%;
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 30%;
+}
+
+/* 右上 */
+.upperRight {
+    border-right: 5px sandybrown solid;
+    border-top: 5px sandybrown solid;
+    height: 100%;
+    top: 45%;
+    left: -45%;
+    position: relative;
+    width: 100%;
+    border-top-right-radius: 50%;
+}
+
+/* 右下 */
+.bottomRight {
+    border-right: 5px sandybrown solid;
+    border-bottom: 5px sandybrown solid;
+    height: 100%;
+    top: -45%;
+    left: -45%;
+    position: relative;
+    width: 100%;
+    border-bottom-right-radius: 50%;
+}
+
+/* 左下 */
+.bottomLeft {
+    border-left: 5px sandybrown solid;
+    border-bottom: 5px sandybrown solid;
+    height: 100%;
+    top: -45%;
+    left: 45%;
+    position: relative;
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    
+}
